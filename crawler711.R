@@ -30,5 +30,5 @@ for (i in 17:length(url.list)){ #第一層：縣市
     }
   }
 }
-
+colnames(data) = c('id','store','phone','address') #補上label
 
